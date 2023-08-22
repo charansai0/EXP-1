@@ -11,7 +11,7 @@
 ### STEP 5: Display the results.
 
 ## PROGRAM:
-
+```
 import matplotlib.pyplot as plt
 import pandas as pd
 df=pd.read_csv("Dataset.csv",parse_dates=["Date"],index_col="Date")
@@ -23,7 +23,7 @@ df.Close.resample('M').mean()
 mean=df.Close.resample('M').mean().plot(kind="bar")
 mean=df.Close.resample('Y').mean().plot(kind="bar")
 
-
+```
 ## OUTPUT:
 ### FIRST FIVE ROWS:
 ![image](https://github.com/gpavithra673/EXP-1-Plot-a-time-series-data/assets/93427264/966e903b-c051-4846-bf0a-278477394d6a)
