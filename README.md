@@ -1,14 +1,14 @@
 # EXP-1-Plot-a-time-series-data
 
 ## AIM:
-###  Develop a python program to Plot a time series data (population/ market price of a commodity /temperature.
+Develop a python program to Plot a time series data (population/ market price of a commodity /temperature.
 
 ## ALGORITHM:
-### STEP 1: Import the required packages like pandas and numpy
-### STEP 2: Read the data using the pandas
-### STEP 3: Calculate the mean for the respective column.
-### STEP 4: Plot the data according to need and can be altered monthly, or yearly.
-### STEP 5: Display the results.
+STEP 1: Import the required packages like pandas and numpy
+ STEP 2: Read the data using the pandas
+STEP 3: Calculate the mean for the respective column.
+STEP 4: Plot the data according to need and can be altered monthly, or yearly.
+STEP 5: Display the results.
 
 ## PROGRAM:
 ```
@@ -38,4 +38,4 @@ mean=df.Close.resample('Y').mean().plot(kind="bar")
 ![image](https://github.com/gpavithra673/EXP-1-Plot-a-time-series-data/assets/93427264/16f7788b-75ec-4dfa-b2b5-80db53d52a09)
 
 ## RESULT:
-### Thus we have created the python code for plotting the time series of given data.
+ Thus we have created the python code for plotting the time series of given data.
